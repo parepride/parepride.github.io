@@ -1,0 +1,10 @@
+#version: '2.27.0'  # Specify the version of Docker Compose
+
+services:
+  web:
+    image: httpd:latest  # Use the official Apache HTTP Server image from Docker Hub
+    ports:
+      - "8082:80"  # Map port 80 on the host to port 80 on the container
+    volumes:
+      - ./public:/usr/local/apache2/htdocs/  # Mount the local 'html' directory to the container's web root
+    restart: always
