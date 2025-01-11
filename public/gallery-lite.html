@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Gallery | All Memory Lite</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link href="vendors/prism/prism.css" rel="stylesheet">
+    <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="assets/css/user.css" rel="stylesheet" />
+
+    <link href="vendors/glightbox/glightbox.min.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <div class="cursor-outer d-none d-md-block"></div>
+      <nav class="navbar navbar-light py-3 px-0 overflow-hidden">
+        <div class="container px-md-5">
+          <div class="row w-100 g-0 justify-content-between">
+            <div class="col-8">
+              <div class="d-inline-block"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="index.html"><img class="img-fluid" src="assets/img/icons/logo-icon.png" alt="logo-icon" /><span class="fw-bolder ms-2">Pare</span><span class="fw-thin">pride</span></a></div>
+              <div class="mt-4 d-none d-lg-block">
+                <h1 class="text-uppercase fs-lg-7 fs-5 fw-bolder text-300 lh-1 position-relative z-index-0">Gallery Lite</h1>
+                <h1 class="d-none d-md-block fw-bolder text-outlined fs-7 text-white lh-1 mt-n4 position-relative z-index--1">All Memory</h1>
+              </div>
+            </div>
+            <div class="col-4 d-lg-none text-end pe-0">
+              <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle offcanvas navigation"><span class="menu-bar"></span></button>
+            </div>
+            <div class="offcanvas offcanvas-end px-0" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasTitle" aria-hidden="true">
+              <div class="offcanvas-header justify-content-end">
+                <h5 class="visually-hidden offcanvas-title" id="navbarOffcanvasTitle">Menu</h5>
+                <button class="btn p-0 shadow-none text-black fs-2 d-inline text-end" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="menu-close-bar"></span></button>
+              </div>
+              <div class="offcanvas-body px-0">
+                <div class="d-lg-flex flex-center-start gap-3 overflow-hidden">
+                  <ul class="navbar-nav ms-auto fs-4 ps-6">
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="index.html">Home</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="portfolio.html">Portfolio</a></li> -->
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5 active" aria-current="page" href="gallery-lite.html">Gallery Lite</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="exhibitions.html">Exhibitions</a></li> -->
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="https://drive.google.com/file/d/1PXFCq_mu1uDyhryuHU2P-LPgWnkKzAP1/view?usp=drive_link" target="_blank">Download All File</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="blog.html">Blog</a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-none d-lg-flex justify-content-end position-relative z-index-1">
+                <div class="position-absolute absolute-centered z-index--1">
+                  <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1">Gallery Lite</h1>
+                </div>
+                <div class="d-flex gap-3 align-items-start"><a class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="gallery-lite.html">Switch Lite</a>
+                  <ul class="navbar-nav navbar-fotogency ms-auto text-end">
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="index.html">Home</a></li>
+                    <!-- <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="portfolio.html">Portfolio</a></li> -->
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0 active" aria-current="page" href="gallery-lite.html">Gallery Lite</a></li>
+                    <!-- <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="exhibitions.html">Exhibitions</a></li> -->
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="about.html">About</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="https://drive.google.com/file/d/1PXFCq_mu1uDyhryuHU2P-LPgWnkKzAP1/view?usp=drive_link" target="_blank">Download All File</a></li>
+                    <!-- <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="blog.html">Blog</a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0 mt-4 d-lg-none">
+            <h1 class="text-uppercase ps-0 fs-lg-7 fs-5 fw-bolder text-300 lh-1 position-relative z-index-0">Gallery Lite</h1>
+            <h1 class="fw-bolder text-outlined ps-0 fs-lg-7 fs-sm-6 fs-5 text-white lh-1 mt-sm-n4 mt-n3 position-relative z-index--1">All Memory</h1>
+          </div>
+        </div>
+
+      </nav>
+      <section class="pt-3 pb-9 position-relative">
+        <div class="container px-md-5">
+          <div class="position-md-absolute start-0 ms-2 mt-3 mb-4">
+            <ul class="nav gallery-tab d-flex gap-3" data-filter-nav="data-filter-nav">
+              <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav active" href="#!" data-filter="*">All</a></li>
+              <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav" href="#!" data-filter=".videolist">Videos</a></li>
+              <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav" href="#!" data-filter=".fieldarea">Field</a></li>
+              <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav" href="#!" data-filter=".cafearea">Cafe</a></li>
+              <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav" href="#!" data-filter=".lsparea">LSP</a></li>
+              <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav" href="#!" data-filter=".randomarea">Random</a></li>
+            </ul>
+          </div>
+          <div class="row g-3" data-isotope='{"layoutMode":"packery"}'>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/gdsMTby/Horizon-Lite-1.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1hr_klkQOg_heRkxUebAHQeoR4lkaPqiZ/view?usp=drive_link'>Download </a>; description: Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/PTL2Lr9/Vertical-Lite-1.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1Wa3ZcS9Q-2c-QpJyE6DDWDOIGKlGRqty/view?usp=drive_link'>Download </a>; description: Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/0CVy9n1/Vertical-Lite-2.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/17hH8ynGTQgiRJ48lyWmWWEDmfjerCnaq/view?usp=drive_link'>Download </a>; description: Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/0s8f0k1/Horizon-Lite-2.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/13GeGL7kw0w4QQNei64wizjsNSSzWcCSP/view?usp=drive_link'>Download </a>; description: Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/CbgBnVk/Vertical-Lite-3.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1ajlEUMpZSdADG9aUR63ArDy2yyNnYrSL/view?usp=drive_link'>Download </a>; description: Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/3hFCn5V/Vertical-Lite-4.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1-7qMeOrlj8MjmI8EemLr4xJWl56CoZq3/view?usp=drive_link'>Download </a>; description: Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/dQgD4rv/Horizon-Lite-3.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/138vRqzxMEadpsHqGOT8aHJ1ni6-RrrjZ/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/RYD7hvP/Vertical-Lite-5.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1LsXc2xI-kV1nOfKBgffKvDkerIQE-lOj/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/xM703FW/Vertical-Lite-6.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1YjqNxSCOHo4toTEtrnkc2CGDaqoKC17B/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/f0D219R/Horizon-Lite-4.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1YrjB2etL8Q19MeoXIZxCp34qCg5oidJ3/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/3zkDDR0/Vertical-Lite-7.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1-Un4S4re-iDb0ttLkvR9ORnjNgDkjNEr/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/mtzjMLy/Vertical-Lite-8.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1kD4wCRN_dakrjax_2DF2VQ2-zzju368D/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/v3GmD1S/Horizon-Lite-5.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1daFcCB2dtrnDUTWB933jCn6oWk5Pa3lg/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/ZWd7VZ7/Vertical-Lite-9.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1T620cKVVpuDiLxQ6fhPWXVDwKiWOk5rp/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/crXmXXy/Vertical-Lite-10.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1a3yCwblZd58aEXZ3w38xFdozAPS2wkhj/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/FgPfgfw/Horizon-Lite-6.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1J28oqz-1Ac7BYS2R-Z8SIW6VGspUsLHM/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/44NbSMh/Vertical-Lite-11.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/10nE3WIM5szUryW2U7-ff3iOZR1sT9ap7/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/fH5JTqK/Vertical-Lite-12.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1TcNiiEJxdZq-zfVwhpUD_xHLbyPEemUM/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/ZVLdTqV/Horizon-Lite-7.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1sazEg31FUx_qoR708N3DwuGzbsGDFKo7/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/LYm4Hj2/Vertical-Lite-13.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/12TAb_WrxsbzMZeqH1UIoREUQQVKZ1VBi/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/j8QjRRY/Vertical-Lite-14.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1hYMviwox2lAMJFCf7LH0RCE6bGwCL5tP/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/QcHHJLq/Vertical-Lite-15.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1-ip7nVf9zimLYco-cFeNRKztnZq_9QpS/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/3zhxDXy/Vertical-Lite-16.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1Z6AqlubjiSKMtklSyFdVw1xtZQk6iAnb/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/WtXw7T9/Horizon-Lite-8.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1daGvY6I-hMO51hXKLQhXeFRf0K7PkXYm/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/fDb0z31/Horizon-Lite-9.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1e0haxIZLbAepj1Ed2KdVhm6miukVBqHo/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/jgSs5DT/Verticaly-Lite-1.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1U5I8nmFlHZjwEAOZcGm0_xOL_kuYhGP9/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/5BM6X41/Verticaly-Lite-3.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1AsB1Ih0MAYfEpLXg4bixklqIrhNdUwS5/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/JpHsf5D/Horizon-Lite-10.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1U2tRhIxEE2FyuqXLeRH0w_mnSeK_DEZa/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/RHVD76W/Verticaly-Lite-11.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1HMO_Gei7VTTIBgjbsrh79m-vJA772obZ/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/KmZWVP1/Verticaly-Lite-4.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1earh_wQdHV7FjxBu6l6Ia52k7o9ekzGE/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/rv45QpQ/Verticaly-Lite-9.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/18LGNE17TnmtVXik6HwyWjVeTkzhq4g3R/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/37nVrdj/Verticaly-Lite-6.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1MCSgLTKR1gDx1P9aePoC5haZETeTv6n9/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/Qd7BYCH/Verticaly-Lite-7.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/11W9KnPI5WwsawyH5BWOjPFLBfsXoSwIV/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/K2ZQ05s/Horizon-Lite-12.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1N5kX52smX1bJsY7Y6b8tMlhBIiEo1BaH/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/gyqhfB5/Verticaly-Lite-8.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1xSsalTqJyMHGOgRgvtbVO3ZlRz3eUMqx/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/0qfmZr5/Horizon-Lite-11.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1ws0HiH0gGkzJcVqpoEC6Q8MRJ211STTC/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/W0fWzV5/Verticaly-Lite-5.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1N14romqqkaGS7OJvAOZIv-mLZ47ybPHV/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/jhc9MbH/Verticaly-Lite-10.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1QIfM7pzgTgxAP0P2sooCieAH7JPyAv_w/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/cx5bYSb/Verticaly-Lite-2.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1wbj4r1TYcWiB7ywW_PnsDMKO3wl9IliR/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/9bKQv2m/Horizon-Lite-13.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1iEpHnL2_wJ-ZPYnQfHvFDb4spuOi72SH/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/c8W4YbY/Verticaly-Lite-14.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1ENVJ0dSy0mhKuHx1m3DqPo6fYaotw0Ms/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/9ZSrLK9/Horizon-Lite-14.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1rrhleLGHdELwdFQYU4al8-x47wx6Dm9A/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/2nS63vP/Verticaly-Lite-13.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1KQAzc3q1Fy8l7FaM8oQ5SXl6as_3iSDf/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/KwHFg00/Horizon-Lite-15.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1Rq6uclWtvdH6k7UTsJxLwSDQV-cON1Ym/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/pLk5dnV/Verticaly-Lite-15.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1bqvlU3Ky1G3d0MsRUZDqLksscF1oBa86/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/cCp1z9C/Horizon-Lite-16.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1UrNEeguAeT4pGwWqOWkQ1yzOfEOCwBii/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/ZzVB4GQ/Verticaly-Lite-16.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/18Iehxp7oF82kSQYF_Mm8dUardmPuGiG5/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/mXRt8w6/Verticaly-Lite-17.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1Vp8k61uJlBXiN19K1efnVnjBnltzK03r/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/7nHYCFn/Verticaly-Lite-18.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1uWn7mezJD2mIrFAn1w-lGezmuCHTuTnV/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/P1MPkgJ/Horizon-Lite-17.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/16hTgzenzgGrX2_fO3ITOEcCSRCWv_hG7/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/tKVrBdC/Verticaly-Lite-19.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1zPJxT2VO9Z6dVg_MuNurGig6V7l6PGAm/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/8m85Gsm/Verticaly-Lite-20.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1OVxS4sBm-RJljqqEnsfpl5clPYWYMO7k/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/F0Wc9Kp/Horizon-Lite-18.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1jru_VvLI3qpq9P_EoVEEILUxZ0zxsxmW/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/x1C7QFv/Horizon-Lite-19.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1umL8_eApM_4TFOy95sNn7pWGE3pZ7lbK/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/3d0V193/Verticaly-Lite-12.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1GY6x9nZDzdvVZf3Xuj5RjNXuaScUxiS9/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-3 col-sm-6 col-12 randomarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/8BS9vLv/Verticaly-Lite-21.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1fFZptcXuhIGHPvY6I5FX3895Dr4JnHg3/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/KWrMHZS/Horizon-Lite-20.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1o2UkQWb4AV4FPZ4wVhMjC-RhlnrR81nB/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/nMLqkhJ/Horizon-Lite-21.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1aTh-3wEEVn2wOCp7U4lxttpKsBdUFWNE/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/C7TyGFW/Horizon-Lite-22.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1ukfrIvxZXi6K6Iukh2hStiL1Y-VmkCO-/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 fieldarea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/WsZwZrH/Horizony-Lite-1.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/15iMsGWtkEcITCyvmVfP-o_3qmRgxjQkY/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/CH6P3Vn/Horizony-Lite-2.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1KLc1lNihnbtl_IhjyT9GhHGq8ZxcB6TE/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/pJQqyWt/Horizony-Lite-3.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1M0PkLUkPJ1t5I4Bli3mtB6IzraFN_1KO/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/R95ncN5/Horizony-Lite-4.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1Md8srlffdnFZ1iVKUWD907xu3W6FLYHe/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/VWBJbpY/Horizony-Lite-5.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1yvlVnqmQf-zfcjnc45SD--aMH07pxrE7/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 cafearea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/cvb25RS/Horizony-Lite-6.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1MlqY9d8GAF17iXulH_TY5b7WlL5m-6m9/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+            <div class="col-lg-6 col-12 lsparea gallery-item isotope-item"><img class="img-fluid w-100" src="https://i.ibb.co/gdYPwz7/Horizony-Lite-7.jpg" alt="Database Error" data-glightbox="title: <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1urbR0agjVcykO7wpKSarfWiORm1XwaTg/view?usp=drive_link'>Download </a>; description: | Iching biching chiching" /></div>
+
+            <!-- VIDEO -->
+              <!-- VID-20240208-WA0015 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/Ae9GGboC#mDjuRQ2CCsXbZ9xi-55vTBv70B4JZ-8wxAY672gkPx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/12YbmOd92UKXQj_q39T2gxjtNHpwKYhB1/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240302-WA0060 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/8HlVhDLS#wgYpFuPp2ZIgfnCgb2K0rfaFbnSd9omiMYoacoe0Yzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1EhG8BdNZ5-wBQ67t47mqlLu59xEFC4r1/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240226-WA0041 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/BX803AAS#k5pJ1lGV3j3ANNK2rnQIyuXvEhREPoKlvX01ZBifPao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/12YbmOd92UKXQj_q39T2gxjtNHpwKYhB1/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240302-WA0058 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/Ja92DahR#XFF6Uz6b4QT9xwGESfh2b69kBbRcMjbOREwn-YgIQco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/16vjT1Ez6UPSVoTdP7qHTstKdW3fhYLTd/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- IMG_4420 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/8K8F0QJb#Fh_b9UgP-JYnDS74HQU52np0jUSIaowa3Ms9-zbHOQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1jroWLjLKxyNmhXAPBjUrfApsWqNUoNOD/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- IMG_4421 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/ga0jBTjK#YNKZXvClvNEKzBK-doz9RnTeiAllPp9lJbdTmulbjVA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1Mtnb16HuUleZVYjU3ejjblidiLz8od5f/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240302-WA0071 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/tHdXTKjT#ma-71nHyU4Tz2FBhOlfL_W1TerlcHy2ptSQ-9BCheq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1LdgZp2p3-LE_xMmF3F_pR1TxyVwW1nQV/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240302-WA0072 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/pS1BUD6A#yY7MeNQXBfU6e405I-fUIGV4-SyaY9NArgncEVT2k3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1IxpxITUNLEIx_xiQlfIY1596mT554gV2/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0006 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/VLVhUZzZ#CisjSN4M0yG8EmC_GrHy8oKU9dEymLvXT6R4QmWw1xo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1lSmrEOIoN4nka_I6HIJzLTIi4FqEN7YU/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0007 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/AbV2xRCZ#JnKkDoCCukvwdQSJa_8h3kj89822FWwdxEwNxh3Q_z0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1hRDMYlac2MotSDvNtFsPnnT_tzxcTDkY/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0008 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/0aUlRDzC#KjG1jkCLOgeNqsqsUdjo32Zs8zrjIrtCt_ZEmMzay_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1l4EA_r-u4ssycGNyY2CFdtCViUAFnZ3i/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0009 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/4TNgVZAA#db0psE9o-nrwUmIkQRv5cFNoIVLKLm_KXFWNAD1cmG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/15HwT96EnVhwYovCHXTCpxBZE0E_1TFYL/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0010 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/wPUFWJpT#l8clnxopbCn35UGtWWzuk6Cq-G6VBOE8zzLMjtaKbXE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/15d_1Tbygq8G4jKHctjgsya_zvbCoskiR/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0011 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/dHcQRRTS#rG3gFtmXrsLDJYH9JRbO57CHKqXfh8-Nsw9uSYwRcTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/1O9RMX3HnVnZGFlN0xojA6EE9oqRDCERZ/view?usp=drive_link'>Download </a>
+            </div>
+              <!-- VID-20240303-WA0012 -->
+            <div class="col-lg-6 col-12 videolist gallery-item isotope-item">
+              <iframe class="img-fluid w-100" src="https://mega.nz/embed/Rb8g2ZaT#cfzpY6tdbtPziskiKybyIw-henrztU7DcwC5m7K2zN4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class='btn btn-link text-warning p-0' target='_blank' href='https://drive.google.com/file/d/18rG7VkPfBu46TCn1gcxtLdZYrSO2tPsb/view?usp=drive_link'>Download </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="bg-black py-0">
+
+      <div class="container px-md-5">
+        <div class="row g-0 justify-content-md-between justify-content-evenly py-4">
+          <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
+            <p class="fs--1 my-2 fw-light text-100">From | <a class="fw-bold text-warning" href="https://kampunginggrism.com/" target="_blank" >English Madany, </a>2024</p>
+          </div>
+          <div class="col-12 col-sm-8 col-md-6">
+            <p class="fs--1 fw-light my-2 text-center text-md-end text-100"> Made with&nbsp;
+              <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
+                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+              </svg>&nbsp;by&nbsp;<a class="fw-bold text-warning" href="https://parepride.my.id/" target="_blank">Pare Pride</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/anchorjs/anchor.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="vendors/isotope-layout/isotope.pkgd.min.js"> </script>
+    <script src="vendors/isotope-packery/packery-mode.pkgd.min.js"> </script>
+    <script src="vendors/glightbox/glightbox.min.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/prism/prism.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+  </body>
+
+</html>
